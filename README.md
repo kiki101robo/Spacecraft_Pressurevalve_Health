@@ -6,7 +6,7 @@
 Schematic Diagram of the Valve System
 ![image](https://github.com/user-attachments/assets/0fa931c0-4d6b-4ee3-8cd9-e81f527537e9)
 
-
+Pressure profile over the given time period
 ![image](https://github.com/user-attachments/assets/86f3bb31-bfa3-43e3-aa20-d980be7f5ed8)
 
 
