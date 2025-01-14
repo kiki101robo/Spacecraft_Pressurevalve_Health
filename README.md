@@ -10,12 +10,12 @@ Pressure profile over the given time period
 ![image](https://github.com/user-attachments/assets/86f3bb31-bfa3-43e3-aa20-d980be7f5ed8)
 
 
-
+Regime Separation
 ![image](https://github.com/user-attachments/assets/b0847870-9943-4aaa-b4dd-2cd41562eef2)
 
 
 
-
+Classification of valves exhibiting different nature
 ![image](https://github.com/user-attachments/assets/c3a0d493-528f-4a81-87b6-c36b6303813d)
 
 
