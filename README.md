@@ -18,9 +18,11 @@ Regime Separation
 Classification of valves exhibiting different nature
 ![image](https://github.com/user-attachments/assets/c3a0d493-528f-4a81-87b6-c36b6303813d)
 
-
+Valve Opening Ratio Prediction
 ![image](https://github.com/user-attachments/assets/f8b38f34-ee83-4e6d-9144-d831e68eef7a)
 
-
+Valve Opening Prediciton vs True Values
 ![image](https://github.com/user-attachments/assets/06d66707-1af6-411e-85a7-c7821dc027e1)
+
+Confusion Matrix of calssification
 ![image](https://github.com/user-attachments/assets/5609eaba-3fb5-493c-bb20-4550db996a1a)
