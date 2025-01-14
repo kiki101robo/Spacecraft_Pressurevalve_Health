@@ -3,7 +3,7 @@
 
 [Industrial AI Final Report.pdf](https://github.com/user-attachments/files/18400934/Industrial.AI.Final.Report.pdf)
 
-
+Schematic Diagram of the Valve System
 ![image](https://github.com/user-attachments/assets/0fa931c0-4d6b-4ee3-8cd9-e81f527537e9)
 
 
