@@ -1,84 +1,51 @@
-# Spacecraft_Pressurevalve_Health
+# Spacecraft Pressure Valve Health
 
+View the full project report here: [Industrial AI Final Report.pdf](https://github.com/user-attachments/files/18400934/Industrial.AI.Final.Report.pdf)
 
-[Industrial AI Final Report.pdf](https://github.com/user-attachments/files/18400934/Industrial.AI.Final.Report.pdf)
+## Visualizations
 
-Schematic Diagram of the Valve System
-![image](https://github.com/user-attachments/assets/0fa931c0-4d6b-4ee3-8cd9-e81f527537e9)
+### Schematic Diagram of the Valve System
+![Schematic Diagram](https://github.com/user-attachments/assets/0fa931c0-4d6b-4ee3-8cd9-e81f527537e9)
 
+### Pressure Profile Over Time
+![Pressure Profile](https://github.com/user-attachments/assets/86f3bb31-bfa3-43e3-aa20-d980be7f5ed8)
 
+### Regime Separation
+![Regime Separation](https://github.com/user-attachments/assets/b0847870-9943-4aaa-b4dd-2cd41562eef2)
 
-Pressure profile over the given time period
-![image](https://github.com/user-attachments/assets/86f3bb31-bfa3-43e3-aa20-d980be7f5ed8)
+### Classification of Valves
+![Valve Classification](https://github.com/user-attachments/assets/c3a0d493-528f-4a81-87b6-c36b6303813d)
 
+### Valve Opening Ratio Prediction
+![Valve Opening Ratio](https://github.com/user-attachments/assets/f8b38f34-ee83-4e6d-9144-d831e68eef7a)
 
-Regime Separation
-![image](https://github.com/user-attachments/assets/b0847870-9943-4aaa-b4dd-2cd41562eef2)
+### Valve Opening Prediction vs True Values
+![Valve Opening Prediction](https://github.com/user-attachments/assets/06d66707-1af6-411e-85a7-c7821dc027e1)
 
-
-
-Classification of valves exhibiting different nature
-![image](https://github.com/user-attachments/assets/c3a0d493-528f-4a81-87b6-c36b6303813d)
-
-Valve Opening Ratio Prediction
-![image](https://github.com/user-attachments/assets/f8b38f34-ee83-4e6d-9144-d831e68eef7a)
-
-Valve Opening Prediciton vs True Values
-![image](https://github.com/user-attachments/assets/06d66707-1af6-411e-85a7-c7821dc027e1)
-
-Confusion Matrix of calssification
-![image](https://github.com/user-attachments/assets/5609eaba-3fb5-493c-bb20-4550db996a1a)
-
+### Confusion Matrix of Classification
+![Confusion Matrix](https://github.com/user-attachments/assets/5609eaba-3fb5-493c-bb20-4550db996a1a)
 
 # Vibration Data Analysis with DTW and SVM
 
 ## Project Overview
-This project focuses on analyzing vibration data using Dynamic Time Warping (DTW) and Support Vector Machines (SVM) to classify mechanical states of equipment. It involves reading data from CSV files, preprocessing it, applying DTW for similarity measurements, and using SVM for classification. The dataset includes vibration data under different mechanical conditions, categorized as Healthy, Unbalanced Level 1, and Unbalanced Level 2.
+This project analyzes vibration data using Dynamic Time Warping (DTW) and Support Vector Machines (SVM) to classify mechanical states of equipment, focusing on conditions categorized as Healthy, Unbalanced Level 1, and Unbalanced Level 2.
 
 ## Features
-- **Dynamic Time Warping**: Application of DTW to measure the similarity between time series data under varying time speeds.
-- **Support Vector Machines**: Use of SVM to classify the data into different mechanical states based on extracted features.
-- **Data Preprocessing**: Handling and preparation of time series data from CSV files for analysis.
-- **Feature Extraction**: Extraction of meaningful features from vibration data to feed into the SVM classifier.
-- **Visualization**: Visualization of training and test results for comprehensive analysis.
+- **Dynamic Time Warping (DTW)**: Applied to measure similarities between time series data.
+- **Support Vector Machines (SVM)**: Used for classifying mechanical states from vibration data.
+- **Data Preprocessing**: Includes handling and preparing time series data from CSV files.
+- **Feature Extraction**: Extracts meaningful features for the SVM classifier.
+- **Visualization**: Provides training and test result visualizations for analysis.
 
 ## Getting Started
 
 ### Prerequisites
-Ensure you have the following installed:
-- Python 3.8 or newer
-- NumPy
-- Pandas
-- SciPy
-- Matplotlib
-- Scikit-learn
-- fastdtw
+- Python 3.8+
+- Required libraries: NumPy, Pandas, SciPy, Matplotlib, Scikit-learn, fastdtw
 
 ### Installation
-Clone this repository and install the required Python libraries:
+Clone the repository and install the required dependencies:
 ```bash
 git clone https://github.com/your-repository/vibration-analysis-dtw-svm.git
 cd vibration-analysis-dtw-svm
 pip install numpy pandas scipy matplotlib scikit-learn fastdtw
-Usage
-Run the main script to process the vibration data, perform DTW, extract features, and classify the data using SVM:
-
-bash
-Copy code
-python vibration_analysis.py
-Data
-The project uses vibration data collected under different conditions:
-
-Healthy
-Unbalanced Level 1
-Unbalanced Level 2
-The data is expected in CSV format located in specific directories within the project folder.
-
-Results
-The results include:
-
-DTW distance calculations between test and training data.
-SVM classification output.
-Plots of time-domain signals and frequency-domain FFT results.
-Accuracy measurements and confusion matrices.
-Results are displayed in plots generated by Matplotlib and can be directly viewed during script execution.
