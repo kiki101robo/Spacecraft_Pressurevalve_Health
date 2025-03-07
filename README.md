@@ -1,4 +1,24 @@
 # Spacecraft Pressure Valve Health
+# Improving PHM Technology for Spacecraft Propulsion Systems
+
+## Project Overview
+This project aims to enhance Prognostics and Health Management (PHM) technologies for spacecraft propulsion systems. Developed as part of the ENME691 Industrial AI course at the University of Maryland, this study uses telemetry data and a numerical simulator to predict the dynamic response of spacecraft propulsion systems, focusing on fault detection, classification, localization, and severity assessment.
+
+### Objectives
+- Develop a robust diagnostic framework for propulsion systems focusing on fault localization and classification.
+- Utilize high-fidelity data combined with advanced diagnostic procedures to handle the complexities of spacecraft propulsion defect identification and classification.
+
+## Repository Contents
+- `Data/`: Folder containing training and test datasets.
+- `Scripts/`: Python scripts for data preprocessing, feature extraction, and model training.
+- `Notebooks/`: Jupyter notebooks for exploratory data analysis and visualization.
+- `Results/`: Output files including classification reports and model performance metrics.
+- `docs/`: Additional documentation and project reports.
+
+## Getting Started
+
+### Prerequisites
+Ensure you have Python 3.8+ installed on your machine. You can download it from [Python.org](https://www.python.org/downloads/).
 
 View the full project report here: [Industrial AI Final Report.pdf](https://github.com/user-attachments/files/18400934/Industrial.AI.Final.Report.pdf)
 
@@ -24,28 +44,3 @@ View the full project report here: [Industrial AI Final Report.pdf](https://gith
 
 ### Confusion Matrix of Classification
 ![Confusion Matrix](https://github.com/user-attachments/assets/5609eaba-3fb5-493c-bb20-4550db996a1a)
-
-# Vibration Data Analysis with DTW and SVM
-
-## Project Overview
-This project analyzes vibration data using Dynamic Time Warping (DTW) and Support Vector Machines (SVM) to classify mechanical states of equipment, focusing on conditions categorized as Healthy, Unbalanced Level 1, and Unbalanced Level 2.
-
-## Features
-- **Dynamic Time Warping (DTW)**: Applied to measure similarities between time series data.
-- **Support Vector Machines (SVM)**: Used for classifying mechanical states from vibration data.
-- **Data Preprocessing**: Includes handling and preparing time series data from CSV files.
-- **Feature Extraction**: Extracts meaningful features for the SVM classifier.
-- **Visualization**: Provides training and test result visualizations for analysis.
-
-## Getting Started
-
-### Prerequisites
-- Python 3.8+
-- Required libraries: NumPy, Pandas, SciPy, Matplotlib, Scikit-learn, fastdtw
-
-### Installation
-Clone the repository and install the required dependencies:
-```bash
-git clone https://github.com/your-repository/vibration-analysis-dtw-svm.git
-cd vibration-analysis-dtw-svm
-pip install numpy pandas scipy matplotlib scikit-learn fastdtw
